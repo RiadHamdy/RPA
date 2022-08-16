@@ -84,6 +84,7 @@
       <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
       <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
       <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -91,7 +92,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence sap:VirtualizedContainerService.HintSize="877.6,3892" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence sap:VirtualizedContainerService.HintSize="876.8,3892" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="s:String[]" Name="Filename" />
     </Sequence.Variables>
@@ -100,13 +101,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: GitHub - udacity/cd00284-intro-to-RPA-with-UiPath-project: project for nd340-cq, c" sap:VirtualizedContainerService.HintSize="836,3799.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="d66a8c6c-e8bb-4c09-970c-a0effb9b62aa" Version="V2">
+    <uix:NApplicationCard WebDriverMode="{x:Null}" AttachMode="ByInstance" DisplayName="Use Browser Edge: GitHub - udacity/cd00284-intro-to-RPA-with-UiPath-project: project for nd340-cq, c" sap:VirtualizedContainerService.HintSize="835.2,3799.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="d66a8c6c-e8bb-4c09-970c-a0effb9b62aa" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="802.4,3582.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="801.6,3582.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="formatedDate" />
             </Sequence.Variables>
@@ -115,12 +116,12 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ClickType="Single" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="760.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d66a8c6c-e8bb-4c09-970c-a0effb9b62aa" Version="V1">
+            <uix:NClick ClickType="Single" DisplayName="Click 'SPAN'" sap:VirtualizedContainerService.HintSize="760,157.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d66a8c6c-e8bb-4c09-970c-a0effb9b62aa" Version="V1">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="https://github.com/udacity/cd00284-intro-to-RPA-with-UiPath-project" DesignTimeRectangle="820, 434, 10, 5" FriendlyName="'SPAN'" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;turbo-frame&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;span&amp;gt;get-repo&amp;gt;details&amp;gt;summary&amp;gt;span' isleaf='1' parentid='repo-content-pjax-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' parentid='repo-content-pjax-container' tag='SPAN' class='dropdown-caret' aaname='' /&gt;" Guid="1db3038a-b695-4c42-bd99-ba819b160d0c" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAA4AAAAJCAYAAAACTR1pAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAB8SURBVChTY9Bd4vefVGy8LOA/WRotyNVottATobHxxNT/V9/ewYtBajA0EtIM04RVIwhj04ysCYQtFvti9yOyZnRNIGy2FEfg6AFxE1BD47Ep/3WBpkMwSNwfrgarRiOgiTbLg/8bzvT8rz3d478WEOvMAYovi4Jq9vsPAO7lMFfGNNkLAAAAAElFTkSuQmCC" InformativeScreenshot="0ce07420eb246ff2b18a70f62311fb28.png" ScopeSelectorArgument="&lt;html app='msedge.exe' title='GitHub - udacity/cd00284-intro-to-RPA-with-UiPath-project: project for nd340-cq, cd0024-intro-to-RPA-with-UiPath-project' /&gt;" SearchSteps="FuzzySelector, Image" Visibility="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:GetLastDownloadedFile File="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\V17RRiad\Downloads" sap:VirtualizedContainerService.HintSize="760.8,416" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_2" IgnoreFiles="tmp,dwn">
+            <ui:GetLastDownloadedFile File="{x:Null}" Timeout="{x:Null}" DisplayName="Wait for Download" DownloadFolder="C:\Users\V17RRiad\Downloads" sap:VirtualizedContainerService.HintSize="760,416" sap2010:WorkflowViewState.IdRef="GetLastDownloadedFile_2" IgnoreFiles="tmp,dwn">
               <ui:GetLastDownloadedFile.Body>
                 <ActivityAction>
                   <uix:NClick ClickType="Single" DisplayName="Click 'Download ZIP'" sap:VirtualizedContainerService.HintSize="333.6,157.6" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d66a8c6c-e8bb-4c09-970c-a0effb9b62aa" Version="V1">
@@ -137,9 +138,9 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:GetLastDownloadedFile>
-            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="D:\RPA Udacity Course\Sorting annual Reports" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="760.8,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="C:\Users\V17RRiad\Downloads\cd00284-intro-to-RPA-with-UiPath-project-main.zip" />
-            <uascw:ExtractFiles Content="{x:Null}" DestinationFolderInfo="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" DestinationFolder="D:\RPA Udacity Course\Sorting annual Reports" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="True" FileToExtract="cd00284-intro-to-RPA-with-UiPath-project-main.zip" sap:VirtualizedContainerService.HintSize="760.8,208.8" sap2010:WorkflowViewState.IdRef="ExtractFiles_1" SkipUnsupportedFiles="False" />
-            <Assign sap:VirtualizedContainerService.HintSize="760.8,61.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="D:\RPA Udacity Course\Sorting annual Reports" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="760,160" sap2010:WorkflowViewState.IdRef="MoveFile_1" Path="C:\Users\V17RRiad\Downloads\cd00284-intro-to-RPA-with-UiPath-project-main.zip" />
+            <uascw:ExtractFiles Content="{x:Null}" DestinationFolderInfo="{x:Null}" File="{x:Null}" Password="{x:Null}" CodePage="Default" DestinationFolder="D:\RPA Udacity Course\Sorting annual Reports" DisplayName="Extract/Unzip Files" ExtractToADedicatedFolder="True" FileToExtract="cd00284-intro-to-RPA-with-UiPath-project-main.zip" sap:VirtualizedContainerService.HintSize="760,208.8" sap2010:WorkflowViewState.IdRef="ExtractFiles_1" SkipUnsupportedFiles="False" />
+            <Assign sap:VirtualizedContainerService.HintSize="760,61.6" sap2010:WorkflowViewState.IdRef="Assign_8">
               <Assign.To>
                 <OutArgument x:TypeArguments="s:String[]">[Filename]</OutArgument>
               </Assign.To>
@@ -147,13 +148,13 @@
                 <InArgument x:TypeArguments="s:String[]">[Directory.getfiles("D:\RPA Udacity Course\Sorting annual Reports\cd00284-intro-to-RPA-with-UiPath-project-main\cd00284-intro-to-RPA-with-UiPath-project-main")]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="760.8,1437.6" sap2010:WorkflowViewState.IdRef="ForEach`1_13" Values="[Filename]">
+            <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="760,1437.6" sap2010:WorkflowViewState.IdRef="ForEach`1_13" Values="[Filename]">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="item" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="725.6,1311.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="724.8,1311.2" sap2010:WorkflowViewState.IdRef="Sequence_17">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="scg:IEnumerable(str:Match)" Name="extractedNames" />
                     </Sequence.Variables>
@@ -162,26 +163,27 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="684,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_7" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;]" />
-                    <ui:Matches BuilderPattern="[a-zA-Z]+[\s]*[a-zA-Z]*_Report_\d{8}\.(pdf|xlsx)" sap:VirtualizedContainerService.HintSize="684,60" sap2010:WorkflowViewState.IdRef="Matches_2" Input="[item.ToString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;[a-zA-Z]+[\\s]*[a-zA-Z]*_Report_\\d{8}\\.(pdf|xlsx)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="[a-zA-Z]+[\s]*[a-zA-Z]*_Report_\d{8}\.(pdf|xlsx)" RegexOption="IgnoreCase" Result="[extractedNames]" />
-                    <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="684,996" sap2010:WorkflowViewState.IdRef="ForEach`1_12" Values="[extractedNames]">
+                    <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="683.2,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_7" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;]" />
+                    <ui:Matches BuilderPattern="[a-zA-Z]+[\s]*[a-zA-Z]*_Report_\d{8}\.(pdf|xlsx)" sap:VirtualizedContainerService.HintSize="683.2,60" sap2010:WorkflowViewState.IdRef="Matches_2" Input="[item.ToString]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;LIT&quot;,&quot;OperationName&quot;:&quot;Literal&quot;,&quot;OperationValue&quot;:&quot;[a-zA-Z]+[\\s]*[a-zA-Z]*_Report_\\d{8}\\.(pdf|xlsx)&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="[a-zA-Z]+[\s]*[a-zA-Z]*_Report_\d{8}\.(pdf|xlsx)" RegexOption="IgnoreCase" Result="[extractedNames]" />
+                    <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="683.2,996" sap2010:WorkflowViewState.IdRef="ForEach`1_12" Values="[extractedNames]">
                       <ui:ForEach.Body>
                         <ActivityAction x:TypeArguments="x:Object">
                           <ActivityAction.Argument>
                             <DelegateInArgument x:TypeArguments="x:Object" Name="item" />
                           </ActivityAction.Argument>
-                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="648.8,869.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="648,869.6" sap2010:WorkflowViewState.IdRef="Sequence_16">
                             <Sequence.Variables>
                               <Variable x:TypeArguments="x:String" Name="getYearPart1" />
                               <Variable x:TypeArguments="x:String" Name="getYearPart2" />
                               <Variable x:TypeArguments="x:Boolean" Name="doesPathExist" />
+                              <Variable x:TypeArguments="x:String" Name="PathOld" />
                             </Sequence.Variables>
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Assign sap:VirtualizedContainerService.HintSize="607.2,61.6" sap2010:WorkflowViewState.IdRef="Assign_14">
+                            <Assign sap:VirtualizedContainerService.HintSize="606.4,61.6" sap2010:WorkflowViewState.IdRef="Assign_14">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[getYearPart1]</OutArgument>
                               </Assign.To>
@@ -189,7 +191,7 @@
                                 <InArgument x:TypeArguments="x:String">[item.ToString.Split("."c)(0).ToString]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <Assign sap:VirtualizedContainerService.HintSize="607.2,61.6" sap2010:WorkflowViewState.IdRef="Assign_15">
+                            <Assign sap:VirtualizedContainerService.HintSize="606.4,61.6" sap2010:WorkflowViewState.IdRef="Assign_15">
                               <Assign.To>
                                 <OutArgument x:TypeArguments="x:String">[getYearPart2]</OutArgument>
                               </Assign.To>
@@ -197,16 +199,16 @@
                                 <InArgument x:TypeArguments="x:String">[getYearPart1.Split("_"c).Last.ToString.Substring(4,4)]</InArgument>
                               </Assign.Value>
                             </Assign>
-                            <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[doesPathExist]" sap:VirtualizedContainerService.HintSize="607.2,90.4" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;+getYearPart2.ToString]" PathType="Folder" />
-                            <If Condition="[doesPathExist = False]" sap:VirtualizedContainerService.HintSize="607.2,241.6" sap2010:WorkflowViewState.IdRef="If_4">
+                            <ui:PathExists Resource="{x:Null}" DisplayName="Path Exists" Exists="[doesPathExist]" sap:VirtualizedContainerService.HintSize="606.4,90.4" sap2010:WorkflowViewState.IdRef="PathExists_2" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;+getYearPart2.ToString]" PathType="Folder" />
+                            <If Condition="[doesPathExist = False]" sap:VirtualizedContainerService.HintSize="606.4,241.6" sap2010:WorkflowViewState.IdRef="If_4">
                               <If.Then>
                                 <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="333.6,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_8" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;+getYearPart2.ToString]" />
                               </If.Then>
                               <If.Else>
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="229.6,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;Folder &quot;+getYearPart2+&quot; already exist&quot;]" />
+                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="228.8,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_2" Text="[&quot;Folder &quot;+getYearPart2+&quot; already exist&quot;]" />
                               </If.Else>
                             </If>
-                            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[Environment.CurrentDirectory+&quot;\Files\&quot;+getYearPart2.ToString]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="607.2,160" sap2010:WorkflowViewState.IdRef="MoveFile_8" Path="D:\RPA Udacity Course\Sorting annual Reports\cd00284-intro-to-RPA-with-UiPath-project-main" />
+                            <ui:MoveFile ContinueOnError="{x:Null}" DestinationResource="{x:Null}" PathResource="{x:Null}" Destination="[Environment.CurrentDirectory+&quot;\Files\&quot;+getYearPart2.ToString]" DisplayName="Move File" sap:VirtualizedContainerService.HintSize="606.4,160" sap2010:WorkflowViewState.IdRef="MoveFile_8" Path="[&quot;cd00284-intro-to-RPA-with-UiPath-project-main\cd00284-intro-to-RPA-with-UiPath-project-main\&quot;+item.ToString]" />
                           </Sequence>
                         </ActivityAction>
                       </ui:ForEach.Body>
@@ -215,7 +217,7 @@
                 </ActivityAction>
               </ui:ForEach.Body>
             </ui:ForEach>
-            <Assign sap:VirtualizedContainerService.HintSize="760.8,61.6" sap2010:WorkflowViewState.IdRef="Assign_16">
+            <Assign sap:VirtualizedContainerService.HintSize="760,61.6" sap2010:WorkflowViewState.IdRef="Assign_16">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[formatedDate]</OutArgument>
               </Assign.To>
@@ -223,7 +225,7 @@
                 <InArgument x:TypeArguments="x:String">[Today.ToString("d")]</InArgument>
               </Assign.Value>
             </Assign>
-            <Assign sap:VirtualizedContainerService.HintSize="760.8,61.6" sap2010:WorkflowViewState.IdRef="Assign_17">
+            <Assign sap:VirtualizedContainerService.HintSize="760,61.6" sap2010:WorkflowViewState.IdRef="Assign_17">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[formatedDate]</OutArgument>
               </Assign.To>
@@ -231,16 +233,16 @@
                 <InArgument x:TypeArguments="x:String">[Regex.Replace(formatedDate, "[^\w\\-]", "")]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="760.8,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_9" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;+formatedDate.ToString]" />
-            <Assign sap:VirtualizedContainerService.HintSize="760.8,61.6" sap2010:WorkflowViewState.IdRef="Assign_18">
+            <ui:CreateDirectory ContinueOnError="{x:Null}" Output="{x:Null}" DisplayName="Create Folder" sap:VirtualizedContainerService.HintSize="760,80.8" sap2010:WorkflowViewState.IdRef="CreateDirectory_9" Path="[Environment.CurrentDirectory+&quot;\Files\&quot;+formatedDate.ToString]" />
+            <Assign sap:VirtualizedContainerService.HintSize="760,61.6" sap2010:WorkflowViewState.IdRef="Assign_18">
               <Assign.To>
                 <OutArgument x:TypeArguments="s:String[]">[FileName]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="s:String[]">[Directory.GetFiles(Environment.CurrentDirectory + "\nd340-c1-intro-to-uipath-rpa-project-starter-master")]</InArgument>
+                <InArgument x:TypeArguments="s:String[]">[Directory.getfiles("D:\RPA Udacity Course\Sorting annual Reports\cd00284-intro-to-RPA-with-UiPath-project-main\cd00284-intro-to-RPA-with-UiPath-project-main")]</InArgument>
               </Assign.Value>
             </Assign>
-            <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="760.8,380.8" sap2010:WorkflowViewState.IdRef="ForEach`1_14" Values="[FileName]">
+            <ui:ForEach x:TypeArguments="x:Object" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="760,380.8" sap2010:WorkflowViewState.IdRef="ForEach`1_14" Values="[FileName]">
               <ui:ForEach.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
